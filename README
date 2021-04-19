@@ -1,24 +1,18 @@
-dmenu - dynamic menu
-====================
-dmenu is an efficient dynamic menu for X.
+### What's patched
+
+Patched following patches for vanilla dmenu 5.0:
+1. Transparency
+2. Fuzzy match and match highlights
+3. Line height
 
 
-Requirements
-------------
-In order to build dmenu you need the Xlib header files.
+### Compile & Install
 
+```bash
+sudo make clean install
+```
 
-Installation
-------------
-Edit config.mk to match your local setup (dmenu is installed into
-the /usr/local namespace by default).
+### Troubleshooting
 
-Afterwards enter the following command to build and install dmenu
-(if necessary as root):
-
-    make clean install
-
-
-Running dmenu
--------------
-See the man page for details.
+**/lib/x86_64-linux-gnu/libm.so.6: version `glibc_2.29' not found**
+Add `-lm -ldl` into `CFLAGS`
