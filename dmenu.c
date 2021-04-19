@@ -191,7 +191,8 @@ drawhighlights(struct item *item, int x, int y, int maxw)
 			/* highlight character */
 			c = highlight[1];
 			highlight[1] = '\0';
-			drw_text(
+			//drw_text(
+            drw_fuzzy_text(
 				drw,
 				x + indent - (lrpad / 2),
 				y,
