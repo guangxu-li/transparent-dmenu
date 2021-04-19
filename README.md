@@ -1,7 +1,7 @@
 ### What's patched
 
 Patched following patches for vanilla dmenu 5.0:
-1. Transparency
+1. Transparency @[LukeSmithxyz](https://github.com/LukeSmithxyz/dmenu/commit/d1a3c6cd1f8c84109ac181c8a7dbb29181862aea)
 2. Fuzzy match and match highlights
 3. Line height
 
