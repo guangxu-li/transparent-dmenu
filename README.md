@@ -1,4 +1,4 @@
-### What's patched
+### What're patched
 
 Patched following patches for vanilla dmenu 5.0:
 1. Transparency @[LukeSmithxyz](https://github.com/LukeSmithxyz/dmenu/commit/d1a3c6cd1f8c84109ac181c8a7dbb29181862aea)
