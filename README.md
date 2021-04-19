@@ -7,7 +7,7 @@ Patched following patches for vanilla dmenu 5.0:
 4. vim keybinding (mod + j, k: next, prev | mod + h, l: page up, page down
 
 
-If you want the regular keybinding, simply rename and rename the file 'normal-keybindings-dmenu.1' to 'dmenu.1' before `make install`
+If you want the regular keybinding, simply rename and replace the file 'normal-keybindings-dmenu.1' to 'dmenu.1' before `make install`
 
 
 ### Compile & Install
